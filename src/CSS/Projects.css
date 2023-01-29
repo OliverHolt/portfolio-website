@@ -1,15 +1,16 @@
 .projects {
   padding: 0% 0% 0% 0%;
-  min-height: 40vh;
+  /* min-height: 40vh; */
   background-color: #cce9ff;
 }
 
 #projects-section-title {
   font-size: xxx-large;
   background-color: #cce9ff;
-  width: 100%;
-  margin: 0% 0% 20px 0%;
+  /* width: 100%; */
+  /* margin: 0% 0% 20px 0%; */
   padding: 50px 0% 0% 5%;
+  height: 100px;
 }
 
 .portfolio-items {
