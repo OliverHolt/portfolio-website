@@ -1,0 +1,63 @@
+header {
+  background-color: white;
+  height: 7.5vh;
+  position: relative;
+}
+
+#oliver-holt {
+  position: absolute;
+  top: 3.5vh;
+  left: 5%;
+  font-size: x-large;
+}
+
+#links {
+  position: absolute;
+  top: 3.5vh;
+  right: 10%;
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  margin: 0px 10px;
+  font-size: large;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  #oliver-holt {
+    position: absolute;
+    top: 3.5vh;
+    left: 5%;
+    font-size: large;
+  }
+
+  a {
+    margin: 0px 10px;
+    font-size: medium;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #oliver-holt {
+    position: absolute;
+    top: 3.5vh;
+    left: 5%;
+    font-size: medium;
+  }
+
+  a {
+    margin: 0px 10px;
+    font-size: small;
+    text-decoration: none;
+  }
+}

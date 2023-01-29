@@ -1,0 +1,31 @@
+.tag-line {
+  height: 15vh;
+  width: 85vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding: 0% 0% 0% 5%;
+  font-size: xx-large;
+}
+
+@media screen and (max-width: 1200px) {
+  .tag-line {
+    width: 90 vw;
+    font-size: x-large;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tag-line {
+    width: 100 vw;
+    font-size: large;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .tag-line {
+    width: 100 vw;
+    font-size: medium;
+  }
+}
