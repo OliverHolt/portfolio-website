@@ -83,6 +83,9 @@
   #about-section-title {
     font-size: xx-large;
   }
+  #about-me-blurb p {
+    font-size: large;
+  }
 }
 
 @media screen and (max-width: 1024px) {
