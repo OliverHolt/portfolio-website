@@ -23,6 +23,7 @@ a {
   margin: 0px 10px;
   font-size: large;
   text-decoration: none;
+  color: black;
 }
 
 a:visited {
